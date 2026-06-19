@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Banner from "./Banner/Banner";
-import FAQ from "./faq/FAQ";
+import FAQ from "./FAQ/FAQ";
 import TopScholarship from "./TopScholarship/TopScholarship";
 import { ArrowDown } from "lucide-react";
 import { useRef } from "react";
