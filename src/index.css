@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  color-scheme: light;
+  prefersdark: false;
+  --color-primary: #3b82f6;
+  --color-primary-content: #f7f7f7f7;
+  --color-secondary: #10b981;
+  --color-accent: #0f172a;
+  --color-accent-content: #d1d5db;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+  color-scheme: dark;
+  /* prefersdark: true; */
+  /* Base surfaces */
+  --color-base-100: #0b1220;
+  --color-base-200: #111827;
+  --color-base-300: #1f2933;
+  --color-base-content: #e5e7eb;
+
+  /* Brand */
+  --color-primary: #3b82f6;
+  --color-primary-content: #f7f7f7f7;
+
+  /* Secondary (success / highlights) */
+  --color-secondary: #34d399;
+  --color-secondary-content: #022c22;
+
+  /* Accent (headings / emphasis) */
+  --color-accent: #e5e7eb;
+  --color-accent-content: #020617;
+
+  /* Status */
+  --color-info: #38bdf8;
+  --color-success: #22c55e;
+  --color-warning: #facc15;
+  --color-error: #ef4444;
+}
+
+.custom-label {
+  @apply label text-accent text-sm mb-0.5;
+}
