@@ -18,7 +18,7 @@ const useAxiosSecure = () => {
       },
       (err) => {
         console.log(err);
-      }
+      },
     );
 
     const responseInterceptor = instance.interceptors.response.use(
@@ -26,14 +26,15 @@ const useAxiosSecure = () => {
         return response;
       },
       (err) => {
-        const status = err.status;
+        const status = err?.response?.status;
 
         if (status === 401 || status === 403) {
           signOutFunc().then(() => {
             navigate("/signIn");
           });
         }
-      }
+        return Promise.reject(err);
+      },
     );
 
     return () => {

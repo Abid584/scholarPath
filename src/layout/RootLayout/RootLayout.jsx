@@ -1,6 +1,7 @@
 import ScrollToTop from "../../components/ScrollToUp/ScrollToUp";
 import Footer from "../../pages/shared/Footer/Footer";
 import Navbar from "../../pages/shared/Navbar/Navbar";
+import ChatBot from "../../components/ChatBot";
 import { Outlet } from "react-router";
 
 const RootLayout = () => {
@@ -12,6 +13,7 @@ const RootLayout = () => {
         <Outlet />
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 };

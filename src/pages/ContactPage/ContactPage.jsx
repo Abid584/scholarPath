@@ -29,9 +29,9 @@ const ContactPage = () => {
             </div>
             <h3 className="font-bold text-xl mb-2">Our Office</h3>
             <p className="text-base-content/70">
-              123 Education Lane,
+              74/15 Rail Town,
               <br />
-              Knowledge City, NY 10012
+              DHA EME, PK 65000
             </p>
           </div>
 
@@ -41,8 +41,8 @@ const ContactPage = () => {
               <FaEnvelope />
             </div>
             <h3 className="font-bold text-xl mb-2">Contact Info</h3>
-            <p className="text-base-content/70">support@scholarstream.com</p>
-            <p className="text-base-content/70">+1 (555) 123-4567</p>
+            <p className="text-base-content/70">support@scholarpath.com</p>
+            <p className="text-base-content/70">0322-9704450</p>
           </div>
 
           {/* Info Card 3: Hours */}

@@ -63,7 +63,7 @@ const About = () => {
                 <span className="text-primary">Leaders</span>
               </h1>
               <p className="text-xl text-base-content/70 leading-relaxed">
-                ScholarStream is more than just a platform; it's a movement. We
+                ScholarPath is more than just a platform; it's a movement. We
                 believe financial constraints should never stop a brilliant mind
                 from achieving their potential.
               </p>
@@ -86,10 +86,10 @@ const About = () => {
           <div className="lg:w-1/2 space-y-6">
             <h2 className="text-3xl font-bold">Our Mission</h2>
             <p className="text-base-content/70 text-lg leading-relaxed">
-              Founded in 2024, ScholarStream was built to solve a simple
-              problem: Information Asymmetry. Millions of dollars in scholarship
-              funds go unclaimed every year simply because students don't know
-              they exist.
+              Founded in 2024, ScholarPath was built to solve a simple problem:
+              Information Asymmetry. Millions of dollars in scholarship funds go
+              unclaimed every year simply because students don't know they
+              exist.
             </p>
             <p className="text-base-content/70 text-lg leading-relaxed">
               We aggregate opportunities from across the globe, verify them for

@@ -21,7 +21,7 @@ const Footer = () => {
               className="flex items-center gap-2 text-2xl font-bold text-primary"
             >
               <GraduationCap className="size-8" />
-              <span>Scholar Stream</span>
+              <span>Scholar Path</span>
             </Link>
             <p className="text-base-content/70">
               Connecting students with world-class education opportunities. Find
@@ -80,17 +80,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-base-content/70">
                 <MapPin className="size-5 mt-1 text-primary shrink-0" />
-                <span>
-                  123 Education Lane, Academic City, Dhaka 1212, Bangladesh
-                </span>
+                <span>74/15 Rail Town, DHA EME, PK 65000</span>
               </li>
               <li className="flex items-center gap-3 text-base-content/70">
                 <Phone className="size-5 text-primary shrink-0" />
-                <span>+880 1234 567890</span>
+                <span>0322-9704450</span>
               </li>
               <li className="flex items-center gap-3 text-base-content/70">
                 <Mail className="size-5 text-primary shrink-0" />
-                <span>support@scholarstream.com</span>
+                <span>support@scholarpath.com</span>
               </li>
             </ul>
           </div>
@@ -120,9 +118,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-base-300 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-base-content/60">
-          <p>
-            © {new Date().getFullYear()} Scholar Stream. All rights reserved.
-          </p>
+          <p>© {new Date().getFullYear()} Scholar Path. All rights reserved.</p>
           <div className="flex gap-6">
             <Link to="/terms" className="hover:text-primary transition-colors">
               Terms of Service

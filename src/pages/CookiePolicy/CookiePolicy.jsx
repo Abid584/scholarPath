@@ -46,7 +46,7 @@ const CookiePolicy = () => {
               <FaShieldAlt className="text-2xl text-secondary" />
               <h2 className="text-2xl font-bold m-0">2. How We Use Cookies</h2>
             </div>
-            <p>ScholarStream uses cookies for several important reasons:</p>
+            <p>ScholarPath uses cookies for several important reasons:</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 not-prose">
               {/* Card 1 */}
               <div className="card bg-base-100 border border-base-200 shadow-sm p-6">

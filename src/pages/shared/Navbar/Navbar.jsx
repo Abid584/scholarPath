@@ -94,7 +94,7 @@ const Navbar = () => {
             className="flex items-center gap-2 text-xl font-extrabold text-primary uppercase"
           >
             <GraduationCap className="size-8" />
-            Scholar Stream
+            Scholar Path
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

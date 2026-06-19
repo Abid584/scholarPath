@@ -48,10 +48,10 @@ const Contact = () => {
                     For general inquiries
                   </p>
                   <a
-                    href="mailto:support@scholarstream.com"
+                    href="mailto:support@ScholarPath.com"
                     className="text-primary font-medium hover:underline"
                   >
-                    support@scholarstream.com
+                    support@scholarpath.com
                   </a>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                     href="tel:+8801234567890"
                     className="text-secondary font-medium hover:underline"
                   >
-                    +880 1234 567890
+                    0322-9704450
                   </a>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                   <h3 className="font-bold text-lg">Visit Us</h3>
                   <p className="text-gray-500 text-sm mb-1">Our main office</p>
                   <p className="font-medium">
-                    123 Education Lane, Academic City, Dhaka
+                    74/15 Rail Town, DHA EME, PK 65000
                   </p>
                 </div>
               </div>

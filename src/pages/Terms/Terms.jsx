@@ -26,7 +26,7 @@ const Terms = () => {
             Terms of Service
           </h1>
           <p className="text-base-content/70 max-w-2xl mx-auto text-lg">
-            Please read these terms carefully before using ScholarStream. By
+            Please read these terms carefully before using ScholarPath. By
             using our platform, you agree to be bound by these terms.
           </p>
           <p className="text-sm text-base-content/50 mt-4">
@@ -88,7 +88,7 @@ const Terms = () => {
                 </h2>
               </div>
               <p>
-                By accessing or using the ScholarStream website, you agree to
+                By accessing or using the ScholarPath website, you agree to
                 comply with and be bound by these Terms of Service. If you do
                 not agree to these terms, please do not use our services. We
                 reserve the right to modify these terms at any time, and your
@@ -142,7 +142,7 @@ const Terms = () => {
                 </h2>
               </div>
               <p>
-                ScholarStream facilitates application processing fees for
+                ScholarPath facilitates application processing fees for
                 scholarships. All payments are processed securely via Stripe.
               </p>
               <p className="font-bold mt-4">Refund Policy:</p>
@@ -167,7 +167,7 @@ const Terms = () => {
               </div>
               <p>
                 Users may post reviews and comments. You retain ownership of
-                your content, but grant ScholarStream a license to display it.
+                your content, but grant ScholarPath a license to display it.
               </p>
               <p>You agree NOT to:</p>
               <ul className="list-disc pl-5 space-y-2 mt-4">
@@ -190,7 +190,7 @@ const Terms = () => {
                 5. Limitation of Liability
               </h2>
               <p>
-                ScholarStream is a platform connecting students with
+                ScholarPath is a platform connecting students with
                 opportunities. We do not guarantee scholarship acceptance. We
                 are not liable for any direct, indirect, incidental, or
                 consequential damages arising from your use of the service.
