@@ -12,7 +12,6 @@ import {
   CheckCircle,
 } from "lucide-react";
 import toast from "react-hot-toast";
-import { uploadImage } from "../../../utils";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 const AddScholarship = () => {
@@ -93,13 +92,9 @@ const AddScholarship = () => {
       return;
     }
 
-    const imgFile = data.universityImage[0];
-    const universityImageUrl = await uploadImage(imgFile);
-
     const scholarshipData = {
       scholarshipName: data.scholarshipName,
       universityName: data.universityName,
-      universityImage: universityImageUrl,
       universityCountry: data.universityCountry,
       universityCity: data.universityCity,
       universityWorldRank: parseInt(data.universityWorldRank),
@@ -121,7 +116,7 @@ const AddScholarship = () => {
     try {
       const { data } = await axiosSecure.post(
         "/add-scholarship",
-        scholarshipData
+        scholarshipData,
       );
       console.log(data);
       if (data.insertedId) {
@@ -315,8 +310,8 @@ const AddScholarship = () => {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
-              {/* Row 1: University Name | University Image URL */}
-              <div className="form-control">
+              {/* Row 1: University Name */}
+              <div className="form-control md:col-span-2">
                 <label className="label py-1">
                   <span className="label-text font-medium">
                     University Name <span className="text-error">*</span>
@@ -336,53 +331,6 @@ const AddScholarship = () => {
                   <label className="label py-1">
                     <span className="label-text-alt text-error">
                       {errors.universityName.message}
-                    </span>
-                  </label>
-                )}
-              </div>
-
-              {/* University Image Upload */}
-              <div className="form-control">
-                <label className="label py-1">
-                  <span className="label-text font-medium">
-                    University Image <span className="text-error">*</span>
-                  </span>
-                </label>
-                <input
-                  type="file"
-                  accept="image/*"
-                  className={`file-input file-input-bordered w-full focus:outline-none focus:border-primary ${
-                    errors.universityImage ? "file-input-error" : ""
-                  }`}
-                  {...register("universityImage", {
-                    required: "University image is required",
-                    validate: {
-                      fileType: (files) =>
-                        !files[0] ||
-                        [
-                          "image/jpeg",
-                          "image/png",
-                          "image/webp",
-                          "image/jpg",
-                        ].includes(files[0].type) ||
-                        "Only JPG, PNG, or WebP images are allowed",
-                      fileSize: (files) =>
-                        !files[0] ||
-                        files[0].size <= 2 * 1024 * 1024 ||
-                        "Image size must be less than 2MB",
-                    },
-                  })}
-                />
-                {errors.universityImage ? (
-                  <label className="label py-1">
-                    <span className="label-text-alt text-error">
-                      {errors.universityImage.message}
-                    </span>
-                  </label>
-                ) : (
-                  <label className="label py-1">
-                    <span className="label-text-alt text-gray-400">
-                      JPG, PNG, WebP (Max 2MB)
                     </span>
                   </label>
                 )}
