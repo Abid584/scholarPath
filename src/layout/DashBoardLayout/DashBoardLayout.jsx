@@ -107,7 +107,7 @@ const DashBoardLayout = () => {
           {/* Logo */}
           <div className="flex-1">
             <Link to="/" className="text-xl font-bold text-primary">
-              Scholar Stream
+              Scholar Path
             </Link>
           </div>
 
@@ -176,7 +176,7 @@ const DashBoardLayout = () => {
                 <Award className="text-primary-content size-6" />
               </div>
               <div>
-                <h1 className="text-lg font-bold">Scholar Stream</h1>
+                <h1 className="text-lg font-bold">Scholar Path</h1>
                 <p className="text-xs text-gray-500 capitalize">
                   {role} Dashboard
                 </p>
