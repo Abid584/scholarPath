@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 ScholarStream
+# 🎓 Scholar Path
 
 ### Scholarship Management Platform
 
@@ -31,7 +31,7 @@ A full-stack, data-driven system connecting students with global scholarship opp
 
 ## 📖 Overview
 
-**ScholarStream** bridges the gap between students seeking financial aid and universities offering it. The platform streamlines the entire scholarship journey — searching and filtering opportunities, applying through a secure **Stripe** checkout, and tracking application status in real time — all wrapped in a modern, responsive interface with full **Dark/Light theme** support.
+**Scholar Path** bridges the gap between students seeking financial aid and universities offering it. The platform streamlines the entire scholarship journey — searching and filtering opportunities, applying through a secure **Stripe** checkout, and tracking application status in real time — all wrapped in a modern, responsive interface with full **Dark/Light theme** support.
 
 The system supports three distinct roles — **Student**, **Moderator**, and **Admin** — each with a tailored dashboard and permission set.
 
