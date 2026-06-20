@@ -10,7 +10,6 @@ A full-stack, data-driven system connecting students with global scholarship opp
 [![TailwindCSS](https://img.shields.io/badge/Style-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![DaisyUI](https://img.shields.io/badge/UI-DaisyUI-5A0EF8?logo=daisyui&logoColor=white)](https://daisyui.com/)
 [![Framer Motion](https://img.shields.io/badge/Animation-Framer_Motion-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
-[![Stripe](https://img.shields.io/badge/Payment-Stripe-008CDD?logo=stripe&logoColor=white)](https://stripe.com/)
 
 [**🌐 Live Demo**](https://scholar-path-kappa.vercel.app/) · [**Client Repo**](https://github.com/Abid584/scholarPath) · [**Server Repo**](https://github.com/Abid584/scholarPath-server)
 
